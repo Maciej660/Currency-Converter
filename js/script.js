@@ -1,16 +1,16 @@
-let formElement = document.querySelector(".js-form");
-let quanityElement = document.querySelector(".js-quantity");
-let currencyElement = document.querySelector(".js-currency");
-let resultElement = document.querySelector(".js-result");
+const formElement = document.querySelector(".js-form");
+const quanityElement = document.querySelector(".js-quantity");
+const currencyElement = document.querySelector(".js-currency");
+const resultElement = document.querySelector(".js-result");
 
-let rateEUR = 4.71;
-let rateUSD = 4.33;
+const rateEUR = 4.71;
+const rateUSD = 4.33;
 
 formElement.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    let quantity = +quanityElement.value;
-    let currency = currencyElement.value;
+    const quantity = +quanityElement.value;
+    const currency = currencyElement.value;
 
     let result;
 
