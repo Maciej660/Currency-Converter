@@ -1,26 +1,44 @@
-const formElement = document.querySelector(".js-form");
-const quanityElement = document.querySelector(".js-quantity");
-const currencyElement = document.querySelector(".js-currency");
-const resultElement = document.querySelector(".js-result");
-
-const rateEUR = 4.71;
+{
+ 
+const calculateResult = (quantity, currency) => {  
+  const rateEUR = 4.71;
 const rateUSD = 4.33;
 
-formElement.addEventListener("submit", (event) => {
-    event.preventDefault();
+  switch (currency) {
+  case "EUR":
+    return quantity / rateEUR;
+  
+  case "USD":
+    return quantity / rateUSD;
+  }
+};
 
-    const quantity = +quanityElement.value;
-    const currency = currencyElement.value;
+const updateResultText = (result) => {  
+  const resultElement = document.querySelector(".js-result"); 
+   resultElement.value = result.toFixed(2);
+}
 
-    let result;
+const onFormSubmit = (event) => {
+  event.preventDefault();
 
-    
-    switch (currency) {
-        case "EUR":
-          result = quantity / rateEUR;
-          break;
-        case "USD":
-          result = quantity / rateUSD;
-      }
-      resultElement.value = result.toFixed(2);
-        });
+  const quanityElement = document.querySelector(".js-quantity");
+  const currencyElement = document.querySelector(".js-currency");
+
+  const quantity = +quanityElement.value;
+  const currency = currencyElement.value;
+
+  const result = calculateResult (quantity, currency);
+  
+  updateResultText(result)
+
+
+      };
+
+const init =() => {
+const formElement = document.querySelector(".js-form");
+
+formElement.addEventListener("submit", onFormSubmit);
+};
+init();
+
+}
