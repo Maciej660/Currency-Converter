@@ -1,0 +1,17 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.element {
+    width: 3000px;
+    height: 3000px;
+    resize: both;
+    overflow: auto;
+    background-image: url("../images/currency.jpg");
+background-size: 200px;
+background-color: #ccc;
+background-repeat: space round;
+}
