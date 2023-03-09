@@ -5,7 +5,7 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
-.element {
+.backgroundImages {
     width: 3000px;
     height: 3000px;
     resize: both;
