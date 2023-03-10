@@ -6,12 +6,12 @@ html {
     box-sizing: inherit;
 }
 .backgroundImages {
-    width: 3000px;
-    height: 3000px;
+    width: 300x;
+    height: 300px;
     resize: both;
     overflow: auto;
-    background-image: url ("../images/currency.jpg");
-background-size: 200px;
-background-color: #ccc;
-background-repeat: space round;
+    background-image: url ("../images/currency.jpg"); 
+    background-size: 200px;
+    background-color: #ccc;
+    background-repeat: space round;
 }
