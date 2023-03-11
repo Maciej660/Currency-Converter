@@ -6,11 +6,11 @@ html {
     box-sizing: inherit;
 }
 .body {
-    width: 300x;
-    height: 300px;
-    resize: both;
-    overflow: auto;
+    text-align: center;
+    line-height: 2;
     background-image: url("../images/currency.jpg"); 
-    background-size: 200px;
-    background-repeat: space round;
+    background-position: center;
+    background-size: cover;
+    margin: 70px;
+    
 }
