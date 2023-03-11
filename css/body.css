@@ -12,6 +12,5 @@ html {
     overflow: auto;
     background-image: url("../images/currency.jpg"); 
     background-size: 200px;
-    background-color: #ccc;
     background-repeat: space round;
 }
