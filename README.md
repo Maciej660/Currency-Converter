@@ -8,9 +8,6 @@ Currency Converter
 ## How to run it?
 ### The project is very easy to use. Just enter any amount in the required empty field "Enter currency", then select the currency Euro(EUR), US dollar (USD). After selecting the currency, press the "Calculate" button 
 
-## Link 
-https://maciej660.github.io/Currency-converter/
-
 ### Technologies used in my project
 #### HTML
 #### Java Script
@@ -20,3 +17,6 @@ https://maciej660.github.io/Currency-converter/
 #### GIT
 #### Markdown
 #### Codepen
+
+## Link 
+https://maciej660.github.io/Currency-converter/
