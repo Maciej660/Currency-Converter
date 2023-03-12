@@ -13,14 +13,13 @@ html {
 
 .form {
     font-size: 20px;
-    background-color:rgba(16, 16, 208, 0.435);
+    background-color: rgba(16, 16, 208, 0.435);
     max-width: 700px;
     box-shadow: 10px 30px 30px 0px #5f6c9d;
     width: 100%;
     margin: 30px auto;
     border-radius: 20px;
     font-family: "Roboto", sans-serif;
-
 }
 
 .form__labelText {
@@ -40,8 +39,8 @@ html {
     max-width: 150px;
     border-radius: 5px;
     font-family: "Roboto", sans-serif;
-
 }
+
 .form__field:invalid {
     background-color: hsl(240, 100%, 90%);
 }
@@ -52,9 +51,8 @@ html {
     padding: 10px;
     border: none;
     width: 20%;
-    border-radius: 10px;  
+    border-radius: 10px;
     font-family: "Roboto", sans-serif;
-
 }
 
 .form__button:hover {
@@ -69,7 +67,7 @@ html {
     border: 1px solid blue;
     padding: 20px;
     border-radius: 10px;
-    margin: 20px 0;  
+    margin: 20px 0;
 }
 
 .form__legend {
@@ -89,5 +87,5 @@ html {
 }
 
 .form__info {
-    color: crimson
+    color: white;
 }
